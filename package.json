@@ -1,0 +1,38 @@
+{
+  "name": "enb-transpiler",
+  "version": "0.1.0",
+  "description": "An ENB tech which transpiles javascript files",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run lint",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/b0rey/enb-transpiler.git"
+  },
+  "keywords": [
+    "enb",
+    "babel",
+    "transpiler",
+    "javascript"
+  ],
+  "author": "b0rey",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/b0rey/enb-transpiler/issues"
+  },
+  "homepage": "https://github.com/b0rey/enb-transpiler#readme",
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "enb": "^1.5.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
